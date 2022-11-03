@@ -1,18 +1,18 @@
 import React from "react";
 import moneyTracker from '../../assets/images/MoneyTracker.png';
 import gaugeYourCoworker from '../../assets/images/GaugeYourCoworker.png';
-import noteTaker from '../../assets/images/NoteTaker.png';
+import nutritionalYeet from '../../assets/images/Nutritional-Yeet.png';
 import bookSearch from '../../assets/images/BookSearch.png';
 
 function Projects() {
 
     const projects = [
         {
-            title: 'Note Taker',
-            img: noteTaker,
-            languages: ['HTML', 'CSS', 'JavaScript', 'Express', 'Node'],
-            github: "https://github.com/ehalimi/Note-Taker",
-            website: "https://emanote.herokuapp.com/"
+            title: 'Nutritional-Yeet',
+            img: nutritionalYeet,
+            languages: ['HTML', 'CSS', 'JavaScript', 'Express', 'Node', 'React', 'MongoDB'],
+            github: "https://github.com/ehalimi/Nutritional-Yeet",
+            website: "https://young-taiga-34370.herokuapp.com/"
         },
         {
             title: 'Gauge Your Coworker',
